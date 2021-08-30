@@ -7,6 +7,6 @@ form.addEventListener("submit", (e) => {
     const taskList = document.querySelector(".task");
     taskList.insertAdjacentHTML(
         "beforeEnd",
-        `<li class="list-group-item me-4"><input class="form-check-input " type="checkbox" value="" aria-label="Checkbox for following text input">${taskData}</li>`
+        `<li class="list-group-item me-4"><input class="formCheck cb" type="checkbox" value="" aria-label="Checkbox for following text input"/>${taskData}</li>`
     );
 });
